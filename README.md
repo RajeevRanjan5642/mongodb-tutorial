@@ -6,9 +6,9 @@
 
 # MongoDB Shell
 - show dbs
-- use <db-name>
+- use db-name
 - show collections
-- db.<collection-name>.insertOne({field:value})
-- db.<collection-name>.insertMany([{field:value},{field:value}])
-- db.<collection-name>.find({filter})
-- db.<collection-name>.findOne({field:value})
+- db.collection-name.insertOne({field:value})
+- db.collection-name.insertMany([{field:value},{field:value}])
+- db.collection-name.find({filter})
+- db.collection-name.findOne({field:value})
